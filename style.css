@@ -1,0 +1,100 @@
+html {font-size: 1.25em;}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em auto;
+  max-width: 1200px;
+  text-align: center;
+  color: #494949;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: 0 1em;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+
+label {
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+
+label, textarea, button, progress {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+textarea {
+  resize: none;
+  min-height: 300px;
+  box-sizing: border-box;
+  border: 1px solid #494949;
+  font-size: 1.25em;
+  color: #494949;
+}
+
+button {
+  background: none;
+  border: 2px solid #FF5D73;
+  margin: 1em auto;
+  padding: 1em;
+  font-size: 1em;
+  color: #494949;
+  max-width: 40%;
+  width: 350px;
+  display: inline-block;
+}
+
+progress {
+  background-color: #FF5D73;
+  border: 0;
+  height: 10px;
+  border-radius: 0;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #EFEFEF;
+  border: 0;
+  height: 10px;
+  border-radius: 0;
+}
+progress::-webkit-progress-value {
+  background-color: #FF5D73;
+  border: 0;
+  height: 10px;
+  border-radius: 0;
+}
+progress::-moz-progress-bar {
+  background-color: #FF5D73;
+  border: 0;
+  height: 10px;
+  border-radius: 0;
+}
+
+#result {
+  font-size: 1.5em;
+  color: black;
+}
+
+#clear {
+  border-color: #494949;
+}

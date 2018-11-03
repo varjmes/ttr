@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>time to read calculator - by jmes</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>ttr - time to read</h1>
+    <label for="textbox">Type or paste some text below!</label>
+    <progress value="0" max="100" id="progress" aria-hidden="true"></progress>
+    <textarea name="textbox" id="textbox" required>
+This is a little tool to work out how long it would take a person to read your text. By telling folk the time it will take to read something it allows them to see whether or not they can expend time and energy right now to read the thing, or whether they should save it for later.
+
+The calculation assumes that the average person reads 200 words per minute. This is likely not the case for many people depending on fatigue level, cognitive ability, day of the week, interest level, age and more.
+
+No calculation is done for complexity of the subject matter. It's good practice to write simple sentences so your content can be enjoyed by all.
+
+Feel free to use the small JavaScript functions for your own purposes. Click the little fish in the top right to remix the project on Glitch, or view the source so you can copy and paste the code for your own needs!
+
+- jmes
+    </textarea>
+    <button type="button" id="clear">Clear</button>
+    <button type="button" id="button">Calculate</button>
+    
+    <p id="result" aria-live="assertive">0 minute read</p>
+    <a href="https://twitter.com/varjmes">by jmes</a>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
